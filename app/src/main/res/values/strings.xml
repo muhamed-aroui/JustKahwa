@@ -1,3 +1,23 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">JustKahwa</string>
+    <string name="toppings">Toppings</string>
+    <string name="Whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="order">Order</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="no_email_app">Your phone doesn\'t have an app supporting emails</string>
+    <string name="do_not_exceed_100">The number of coffees can\'t exceed 100</string>
+    <string name="do_not_be_zero">The number of coffees can\'t be 0</string>
+    <string name="Enter_Name">Enter Name</string>
+
+    <string name="order_summary_name">Name: <xliff:g example="Mohammed" id="name">%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">Add whipped cream? <xliff:g example="true" id="checkbox">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Add chocolate? <xliff:g example="true" id="checkbox2">%b</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g example="$10" id="price">%d</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="order_summary_email_subject">JustKawha order for <xliff:g example="Mohmmed" id="name">%s</xliff:g></string>
+
 </resources>
